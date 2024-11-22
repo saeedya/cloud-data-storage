@@ -7,7 +7,6 @@ auth_blueprint = Blueprint("auth", __name__)
 def register():
     return jsonify({"message": "Registration functionality is not implemented yet"}), 501
 
-# Define the authentication route
 @auth_blueprint.route("/login", methods=["POST"])
 def login():
     return jsonify({"message": "Login functionality is not implemented yet"}), 501
